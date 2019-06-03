@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{81f12506-75c2-4c02-a7a5-23e35bbf7688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\talkbox">
+      <UniqueIdentifier>{bd3fd9e0-251c-4688-9da9-e199775fd502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{313e7eb2-0bed-4a7d-8db4-a1996f856bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="configs">
+      <UniqueIdentifier>{e4675390-13d3-4bff-84a8-1d2d17535b89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3dr">
+      <UniqueIdentifier>{960a8577-3950-45cb-b2d4-8014cf2a0a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3dr\p">
+      <UniqueIdentifier>{aca3908c-bf89-4102-abdf-da1616ba01bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="clean.sh" />
+    <None Include="README.md" />
+    <None Include="start.sh" />
+    <None Include="test.txt" />
+    <None Include="configs\talkbox.cfg">
+      <Filter>configs</Filter>
+    </None>
+    <None Include="3rd\p\p.lua">
+      <Filter>3dr\p</Filter>
+    </None>
+    <None Include="3rd\pbcluaMakefile">
+      <Filter>3dr</Filter>
+    </None>
+    <None Include="3rd\pbcMakefile">
+      <Filter>3dr</Filter>
+    </None>
+    <None Include="res\talkbox.proto">
+      <Filter>res</Filter>
+    </None>
+    <None Include="src\talkbox\agent.lua">
+      <Filter>src\talkbox</Filter>
+    </None>
+    <None Include="src\talkbox\main.lua">
+      <Filter>src\talkbox</Filter>
+    </None>
+    <None Include="src\talkbox\preload.lua">
+      <Filter>src\talkbox</Filter>
+    </None>
+    <None Include="src\talkbox\talkbox.lua">
+      <Filter>src\talkbox</Filter>
+    </None>
+    <None Include="src\talkbox\watchdog.lua">
+      <Filter>src\talkbox</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3rd\p\lua-p.c">
+      <Filter>3dr\p</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
